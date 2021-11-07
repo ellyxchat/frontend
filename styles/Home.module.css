@@ -2,6 +2,42 @@
   padding: 0 2rem;
 }
 
+.background {
+  background-color: #ff00f7;
+  background: url(/assets/stars.gif), url(/assets/background.jpg) center center; 
+  -moz-background-size: auto, cover;
+  -o-background-size: auto, cover;
+  background-size: auto, cover;
+}
+
+.login__title {
+  margin-bottom: 2rem;
+}
+
+.login__form__input {
+  width: 100%;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  padding: 0 1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.login__image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+}
+
+.login__form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
