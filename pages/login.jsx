@@ -9,7 +9,7 @@ const Login = () => {
         let email = e.target.elements.email?.value;
         let password = e.target.elements.password?.value;
 
-        console.log(email, password);
+        alert(email + '\n' + password);
     };
     return (
         <>
